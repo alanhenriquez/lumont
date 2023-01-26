@@ -1,0 +1,1798 @@
+
+
+/*CODIGO PARA LA CARGA DE LA PAGINA*/
+
+
+.contenedor-cargar-pagina{
+    width: 100vw;
+    height: 106vh;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: fixed;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgb(39, 39, 39);
+    -webkit-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    transition: all 0.9s ease;
+    z-index: 1000;
+}
+
+.contenedor-cargar-pagina .cint-logo-cargar{
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(39, 39, 39, 0);
+}
+
+.contenedor-cargar-pagina .cint-logo-cargar .texto{
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(39, 39, 39, 0);
+}
+
+.contenedor-cargar-pagina .cint-logo-cargar .texto p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(247, 247, 247, 0);
+    color: rgb(255, 255, 255);
+    font-size: 7vw;
+    text-align: center;
+    font-family: serif;
+}
+
+
+/*TERMINA CODIGO PARA LA CARGA DE LA PAGINA*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-principal{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 237, 237, 0);
+    top: 0vh;
+}
+
+.contenedor-principal .cint-header{
+    width: 100%;
+    height: 100vh;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(251, 251, 251, 0);
+    border-bottom: 0.1vw solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 5vw;
+    transform-style: inherit;
+}
+.contenedor-principal .cint-header:before {
+    background: 50% 50% / cover;
+}
+
+.contenedor-principal .cint-header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url(../imagenes/fondos/muro-de-ladrillos.jpg);
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(1);
+    z-index: -1;
+    min-height: 100vh;
+}
+
+.contenedor-principal .cint-header .contenedor-video{
+    width: 102%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(247, 247, 247, 0);
+}
+
+.contenedor-principal .cint-header .contenedor-video video{
+    width: 102%;
+    height: 102%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(247, 247, 247, 0);
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+/*-------------*/
+
+
+
+
+
+.contenedor-principal .cint-header .contenedor-redes{
+    width: 40%;
+    height: 5.3vw;
+    top: 1%;
+    left: 98%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-98%,-1%);
+    background: rgba(247, 247, 247, 0);
+}
+
+.contenedor-principal .cint-header .contenedor-redes .contenedor-targeta{
+    width: 20%;
+    height: 100%;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgba(180, 180, 180, 0);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+
+.contenedor-principal .cint-header .contenedor-redes .contenedor-targeta .cint-icono{
+    width: 5.5vw;
+    height: 2.5vw;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%) scale(1);
+    background: rgba(255, 255, 255, 0);
+    border-radius: 0vw;
+    transition: 0.2s ease-in-out;
+    border-bottom: 0.2vw solid rgb(255, 255, 255);
+}
+
+.contenedor-principal .cint-header .contenedor-redes .contenedor-targeta .cint-icono:hover, .contenedor-principal .cint-header .contenedor-redes .contenedor-targeta .cint-icono:active{
+    transition: 0.2s;
+    transform: translate(-50%,-50%) scale(1);
+    border-bottom: 1vw solid rgb(255, 255, 255);
+    background: linear-gradient(-20deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+
+
+
+
+.contenedor-principal .cint-header .contenedor-redes .contenedor-targeta .cint-icono label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(57, 57, 57, 0);
+    color: #ffffff;
+    font-size: 1.6vw;
+    cursor: pointer;
+}
+
+
+
+
+
+/*-------------*/
+
+
+
+
+
+.contenedor-principal .cint-header .contenedor-lumont-text{
+    width: 20%;
+    height: 4.2vw;
+    top: 100%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-0%,-100%);
+    background: rgba(247, 247, 247, 0);
+}
+
+.contenedor-principal .cint-header .contenedor-lumont-text .cint-lumont-text{
+    width: 70%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(247, 247, 247, 0);
+}
+
+.contenedor-principal .cint-header .contenedor-lumont-text .cint-lumont-text p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgba(57, 57, 57, 0);
+    color: #ffffff;
+    font-size: 1vw;
+}
+
+
+
+
+
+/*
+ *
+ *-- CODIGO DEL SLIDE EN OTRO DOCUMENTO 
+ *
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONTENEDOR DE LOS ELEMENTOS DEL CUERPO*/
+
+
+
+.contenedor-principal .cint-body{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(251, 251, 251, 0);
+}
+
+
+.contenedor-principal .cint-body .contenedor-informacion-servicios{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(46, 46, 46, 0);
+    border-top: 0.1vw solid rgba(255, 255, 255, 0);
+    border-bottom: 0.1vw solid rgba(255, 255, 255, 0);
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+
+
+
+
+
+
+
+/*TERMINA CONTENEDOR DE LOS ELEMENTOS DEL CUERPO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------*/
+
+
+.contenedor-principal .cint-menu{
+    width: 100%;
+    height: 10vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgb(64, 64, 64);
+    margin-top: 0vw;
+    margin-bottom: 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------- FONDO DE LAMPARA ----------*/
+
+
+.contenedor-principal .cint-menu .cint-menu-fondo{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(70, 70, 70, 0);
+    z-index: 0;
+}
+
+
+.contenedor-principal .cint-menu .contenedor-fondos{
+    width: 6%;
+    height: 100%;
+    top: 50%;
+    left: 4.5%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-4.5%,-50%);
+    background: rgba(70, 70, 70, 0);
+    z-index: 0;
+}
+
+.contenedor-principal .cint-menu .contenedor-fondos .deco-0{
+    width: 150%;
+    height: 85%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgb(222, 145, 0);
+    z-index: -1;
+}
+
+.contenedor-principal .cint-menu .contenedor-fondos .deco-0 img{
+    width: 102%;
+    height: 102%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgb(255, 255, 255);
+    object-fit: cover;
+}
+
+.contenedor-principal .cint-menu .contenedor-fondos .deco-1{
+    width: 100%;
+    height: 120%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgb(255, 255, 255);
+    border-radius: 0.2vw;
+    z-index: -1;
+}
+
+.contenedor-principal .cint-menu .contenedor-fondos .deco-1 img{
+    width: 102%;
+    height: 102%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgb(255, 255, 255);
+    object-fit: cover;
+}
+
+.contenedor-principal .cint-menu .contenedor-fondos .deco-2{
+    width: 60%;
+    height: 50%;
+    top: 131%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-100%) rotate(0deg);
+    background: linear-gradient(#fff,rgba(255, 255, 255, 0));
+    /*/clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);/*/
+    filter: blur(1.3vw);
+    z-index: -2;
+}
+.contenedor-principal .cint-menu .contenedor-fondos .deco-3{
+    width: 60%;
+    height: 50%;
+    top: -31%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,31%) rotate(0deg);
+    background: linear-gradient(#fff,rgba(255, 255, 255, 0));
+    /*/clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);/*/
+    filter: blur(1.3vw);
+    z-index: -2;
+}
+
+
+
+/*---------- TERMINA FONDO DE LAMPARA ----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-principal .cint-menu .contenedor-tema{
+    width: 70%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgb(25, 25, 26);
+}
+
+.contenedor-principal .cint-menu .contenedor-tema p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(247, 247, 247, 0);
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    text-align: center;
+    font-family: bebas1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-principal .cint-principal{
+    width: 80%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 255, 255, 0);
+    padding-top: 0vw;
+}
+
+
+
+
+/*-- TARGETA DE LOS SERVICIOS --*/
+
+
+
+/*-- INICIA SERVICIOS --*/
+
+
+
+
+.contenedor-principal .cint-principal .servicio{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(95, 95, 95, 0);
+    padding-top: 0vw;
+}
+
+
+
+
+.contenedor-principal .cint-principal .servicio .contenedor-seccion{
+    width: 100%;
+    height: 5vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(181, 181, 181, 0);
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    border-radius: 0.5vw;
+    border-style: solid;
+    border-width: 0vw;
+    border-color: #ffffff;
+}
+
+.contenedor-principal .cint-principal .servicio .contenedor-seccion .cont-decoracion{
+    width: 100%;
+    height: 5vw;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(181, 181, 181, 0);
+}
+
+
+/*IZQUIERDA*/
+
+
+.contenedor-principal .cint-principal .servicio .contenedor-seccion .cont-decoracion .deco-1{
+    width: 0; 
+    height: 0; 
+    top: 50%;
+    left: 20%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-20%,-50%) rotate(-30deg);
+    border-left: 1.5vw solid #ffffff;
+    border-top: 1vw solid transparent;
+    border-bottom: 1vw solid transparent; 
+}
+
+.contenedor-principal .cint-principal .servicio .contenedor-seccion .cont-decoracion .deco-2{
+    width: 2.5vw; 
+    height: 2.5vw; 
+    top: 20%;
+    left: 21%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-21%,-20%) rotate(-30deg);
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.2vw solid #fff;
+    border-radius: 50%;
+}
+
+.contenedor-principal .cint-principal .servicio .contenedor-seccion .cont-decoracion .deco-3{
+    width: 1vw; 
+    height: 1vw; 
+    top: 90%;
+    left: 21.5%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-21.5%,-90%) rotate(30deg);
+    background: rgba(255, 255, 255, 0.4);
+    border: 0.2vw solid #fff;
+}
+
+
+/*DERECHA*/
+
+
+.contenedor-principal .cint-principal .servicio .contenedor-seccion .cont-decoracion .deco-4{
+    width: 0; 
+    height: 0; 
+    top: 50%;
+    left: 80%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-80%,-50%) rotate(-30deg);
+    border-left: 1.5vw solid #ffffff;
+    border-top: 1vw solid transparent;
+    border-bottom: 1vw solid transparent; 
+}
+
+.contenedor-principal .cint-principal .servicio .contenedor-seccion .cont-decoracion .deco-5{
+    width: 2.5vw; 
+    height: 2.5vw; 
+    top: 20%;
+    left: 79%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-79%,-20%) rotate(-30deg);
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.2vw solid #fff;
+    border-radius: 50%;
+}
+
+.contenedor-principal .cint-principal .servicio .contenedor-seccion .cont-decoracion .deco-6{
+    width: 1vw; 
+    height: 1vw; 
+    top: 90%;
+    left: 78.5%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-78.5%,-90%) rotate(-30deg);
+    background: rgba(255, 255, 255, 0.4);
+    border: 0.2vw solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-principal .cint-principal .servicio .contenedor-seccion .cont-texto{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(95, 95, 95, 0);
+    padding-top: 0vw;
+}
+
+.contenedor-principal .cint-principal .servicio .contenedor-seccion .cont-texto .cint-texto-deco{
+    
+}
+
+
+
+
+
+.contenedor-principal .cint-principal .servicio .contenedor-seccion .cont-texto .cint-texto-informacion{
+    width: 50%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: linear-gradient(-20deg,rgb(255, 255, 255),rgb(255, 88, 0));
+    padding-top: 0vw;
+    border-radius: 0.5vw;
+}
+
+.contenedor-principal .cint-principal .servicio:nth-child(1n) > .contenedor-seccion .cont-texto .cint-texto-informacion{
+    width: 50%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgb(144, 144, 144);
+    padding-top: 0vw;
+    border-radius: 0.5vw;
+}
+
+.contenedor-principal .cint-principal .servicio:nth-child(2n) > .contenedor-seccion .cont-texto .cint-texto-informacion{
+    width: 50%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: linear-gradient(-20deg,rgb(255, 255, 255),rgb(255, 128, 187),#fff);
+    padding-top: 0vw;
+    border-radius: 0.5vw;
+}
+
+
+
+
+
+
+
+.contenedor-principal .cint-principal .servicio .contenedor-seccion .cont-texto .cint-texto-informacion p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(247, 247, 247, 0);
+    color: #ffffff;
+    font-size: 2vw;
+    text-align: left;
+    font-family: lobster1;
+    text-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+/*-- TERMINA SERVICIOS --*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-principal .cint-principal .contenedor-contenido{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(195, 138, 138, 0);
+    margin-top: 2vw;
+}
+
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio{
+    width: 50%;
+    height: 16vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(196, 196, 196, 0);
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    border-radius: 0%;
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-contenedor{
+    width: 60%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0);
+    border: 0.4vw solid #ffffff;
+    border-radius: 0.5vw;
+    transition: 0.2s;
+    box-shadow: 0 0 2vw #000000;
+}
+
+
+
+
+
+
+/*-- CONTENEDOR DE LOS ELEMENTOS DECORATIVOS DEL SERVICIO --*/
+
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-agregados{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(100, 88, 88, 0);
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-contenedor .tborder-1{
+    width: 99%;
+    height: 99%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%) rotate(0deg);
+    background: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.7s;
+    border-width: 0.7vw;
+    border-style: solid;
+    border-color: rgb(201, 201, 201);
+    z-index: -1;
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-contenedor:hover > .tcint-agregados .tborder-1, .contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-contenedor:active > .tcint-agregados .tborder-1{
+    transition: 0.7s;
+    transform: translate(-50%,-50%) rotate(60deg);
+    border-width: 0.7vw;
+    border-style: dashed;
+    border-color: rgb(255, 255, 255)
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-agregados .tborder-2{
+    width: 99%;
+    height: 99%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    border-width: 1.4vw;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+    z-index: -2;
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-contenedor:hover > .tcint-agregados .tborder-2, .contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-contenedor:active > .tcint-agregados .tborder-2{
+    width: 120%;
+    height: 120%;
+    transform: translate(-50%,-50%) rotate(-360deg);
+    transition: 0.5s;
+    border-width: 1.5vw;
+    border-style: groove;
+    border-color: rgb(255, 163, 223);
+}
+
+
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-agregados .tborder-3{
+    width: 99%;
+    height: 99%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    border-width: 1.4vw;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+    z-index: -3;
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-contenedor:hover > .tcint-agregados .tborder-3, .contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-contenedor:active > .tcint-agregados .tborder-3{
+    width: 145%;
+    height: 145%;
+    transform: translate(-50%,-50%) rotate(360deg);
+    transition: 0.5s;
+    border-width: 0.5vw;
+    border-style: dotted;
+    border-color: rgb(255, 255, 255);
+}
+
+
+
+/*-- CONTENEDOR DE LA INFORMACION MULTIPLE DEL SERVICIO --*/
+
+
+
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-informacion{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(103, 103, 103, 0);
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+
+
+
+
+/*-- IMAGEN DEL SERVICIO --*/
+
+
+
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .contenedor-imagen{
+    width: 110%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .contenedor-imagen img{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(247, 247, 247, 0);
+    object-fit: cover;
+    transition: 0s;
+    color: #0080ff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-contenedor:hover > .tcint-informacion .contenedor-imagen img{
+    filter: blur(0vw) saturate(0%) brightness(60%);
+    transition: 0s;
+}
+
+
+
+/*-- TEMA DEL SERVICIO --*/
+
+
+
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .contenedor-tema-servicio{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .contenedor-tema-servicio .cint-tema-servicio{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(247, 247, 247, 0);
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .contenedor-tema-servicio .cint-tema-servicio .contenedor-texto{
+    width: 110%;
+    height: 110%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .contenedor-tema-servicio .cint-tema-servicio .contenedor-texto p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(247, 247, 247, 0);
+    color: #ffffff;
+    font-size: 2vw;
+    text-align: center;
+    font-family: berkshire1; 
+    transition: 0.5s;
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-contenedor:hover > .tcint-informacion .contenedor-tema-servicio .cint-tema-servicio .contenedor-texto p{
+    transform: translate(-50%,-50%);
+    font-size: 2.4vw;
+    transition: 0.5s;
+}
+
+
+
+
+/*-- BORDES DE CONTENEDOR --*/
+
+
+
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .contenedor-tema-servicio .cint-tema-servicio .borde-1{
+    width: 0%;
+    height: 10%;
+    top: 80%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-0%,-80%);
+    background: linear-gradient(-20deg,rgb(145, 14, 255),rgb(255, 245, 203));
+    transition: 0.7s;
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-contenedor:hover > .tcint-informacion .contenedor-tema-servicio .cint-tema-servicio .borde-1{
+    width: 50%;
+    background: linear-gradient(-20deg,rgb(145, 14, 255),rgb(255, 245, 203));
+    transition: 0.7s;
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .contenedor-tema-servicio .cint-tema-servicio .borde-2{
+    width: 0%;
+    height: 4%;
+    top: 65%;
+    right: 0%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-0%,-65%);
+    background: linear-gradient(-20deg,rgb(0, 137, 255),rgb(0, 255, 177));
+    transition: 0.4s;
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-contenedor:hover > .tcint-informacion .contenedor-tema-servicio .cint-tema-servicio .borde-2{
+    width: 80%;
+    background: linear-gradient(-20deg,rgb(0, 137, 255),rgb(0, 255, 177));
+    transition: 0.4s;
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .contenedor-tema-servicio .cint-tema-servicio .borde-3{
+    width: 0%;
+    height: 2%;
+    top: 80%;
+    right: 0%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-0%,-80%);
+    background: linear-gradient(-20deg,rgb(187, 224, 255),rgb(255, 255, 255));
+    transition: 0.9s;
+}
+
+.contenedor-principal .cint-principal .targeta-contenedor-servicio .tcint-contenedor:hover > .tcint-informacion .contenedor-tema-servicio .cint-tema-servicio .borde-3{
+    width: 20%;
+    right: 20%;
+    background: linear-gradient(-20deg,rgb(187, 224, 255),rgb(255, 255, 255));
+    transition: 0.9s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONTENEDOR DE LAS OFERTAS*/
+
+
+
+
+
+
+
+
+
+
+.contenedor-principal .cint-principal .contenedor-ofertas{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 255, 255, 0);
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.contenedor-principal .cint-principal .contenedor-ofertas .cint-ofertas{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 255, 255, 0);
+}
+
+.contenedor-principal .cint-principal .contenedor-ofertas .cint-ofertas .targeta-ofertas{
+    width: 25%;
+    height: 24vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgb(255, 255, 255);
+    margin-top: 2vw;
+    margin-left: 4.16%;
+    margin-right: 4.16%;
+    margin-bottom: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-principal .cint-principal .contenedor-ofertas .cint-ofertas .targeta-ofertas .contenedor-decoracion{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgb(255, 255, 255);
+    border: 0.3vw solid #ffffff;
+    border-radius: 0.5vw;
+}
+
+.contenedor-principal .cint-principal .contenedor-ofertas .cint-ofertas .targeta-ofertas .contenedor-decoracion .deco-1{
+    
+}
+
+.contenedor-principal .cint-principal .contenedor-ofertas .cint-ofertas .targeta-ofertas .contenedor-decoracion:hover > .deco-1{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-principal .cint-principal .contenedor-ofertas .cint-ofertas .targeta-ofertas .contenedor-informacion{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+}
+
+
+
+
+
+/*COMIENZA OFERTA HEADER*/
+
+
+
+
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-header{
+    width: 100%;
+    height: 40%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(226, 226, 226, 0);
+}
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-header .titulo-oferta{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(226, 226, 226, 0);
+}
+
+
+
+
+
+/*TITULO OFERTA DECORACION*/
+
+
+
+
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-header .titulo-oferta .titulo-oferta-decoracion{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(226, 226, 226, 0);
+}
+
+
+
+
+
+/*TITULO OFERTA INFORMACION*/
+
+
+
+
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-header .titulo-oferta .titulo-oferta-informacion{
+    width: 110%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: linear-gradient(-20deg,rgb(0, 144, 83),rgb(0, 196, 255));
+    transition: 0.2s;
+}
+
+.targeta-ofertas:hover > .contenedor-informacion .cint-informacion-header .titulo-oferta .titulo-oferta-informacion{
+    filter: blur(0.3vw);
+    transition: 0.2s;
+}
+
+
+.targeta-ofertas:nth-child(2n+2) > .contenedor-informacion .cint-informacion-header .titulo-oferta .titulo-oferta-informacion{
+    background: linear-gradient(-20deg,rgb(186, 0, 255),rgb(0, 196, 255));
+}
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-header .titulo-oferta .titulo-oferta-informacion p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(226, 226, 226, 0);
+    color: #fff;
+    font-size: 2vw;
+    font-family: lobster1;
+}
+
+
+
+
+
+/*
+|
+|
+|TERMINA OFERTA HEADER
+|
+|
+*/
+/*
+|
+|
+|COMIENZA OFERTA BODY
+|
+|
+*/
+
+
+
+
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-body{
+    width: 100%;
+    height: 60%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(226, 226, 226, 0);
+}
+
+
+
+
+
+/*COMIENZA PRECIO AHORA*/
+
+
+
+
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-body .precio-ahora{
+    width: 100%;
+    height: 70%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(248, 232, 232, 0);
+}
+
+
+
+
+
+/*TITULO OFERTA DECORACION*/
+
+
+
+
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-body .precio-ahora .cint-precio-decoracion{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(248, 232, 232, 0);
+}
+
+
+
+
+
+/*TITULO OFERTA INFORMACION*/
+
+
+
+
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-body .precio-ahora .cint-precio-informacion{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(248, 232, 232, 0);
+}
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-body .precio-ahora .cint-precio-informacion p{
+    width: auto;
+    height: auto;
+    top: 60%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-60%);
+    background: rgba(226, 226, 226, 0);
+    color: #000000;
+    font-size: 2vw;
+    font-family: lobster1;
+    transition: 0.4s;
+}
+
+.targeta-ofertas:hover > .contenedor-informacion .cint-informacion-body .precio-ahora .cint-precio-informacion p{
+    font-size: 2.6vw;
+    transition: 0.4s;
+}
+
+
+
+
+
+/*
+|
+|
+|TERMINA PRECIO AHORA
+|
+|
+*/
+/*
+|
+|
+|COMIENZA PRECIO ANTES
+|
+|
+*/
+
+
+
+
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-body .precio-antes{
+    width: 100%;
+    height: 30%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(201, 201, 201, 0);
+}
+
+
+
+
+
+/*TITULO OFERTA ANTES DECORACION*/
+
+
+
+
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-body .precio-antes .cint-precio-decoracion{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(248, 232, 232, 0);
+}
+
+
+
+
+
+/*TITULO OFERTA ANTES INFORMACION*/
+
+
+
+
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-body .precio-antes .cint-precio-informacion{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(248, 232, 232, 0);
+}
+
+.targeta-ofertas .contenedor-informacion .cint-informacion-body .precio-antes .cint-precio-informacion p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 90%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-90%,-50%);
+    background: rgba(226, 226, 226, 0);
+    color: #767676;
+    font-size: 1vw;
+    font-family: lobster1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TERMINA CONTENEDOR DE LAS OFERTAS*/
+
+
+
+
+
+
+
+
