@@ -214,7 +214,7 @@
         var link_icon_web = document.querySelector("link[rel='shortcut icon']") || document.createElement('link');
         link_icon_web.type = 'image/x-icon';
         link_icon_web.rel = 'shortcut icon';
-        link_icon_web.href = generateDot()+'imagenes/banners/rosa-arcoiris.jpeg';
+        link_icon_web.href = 'imagenes/banners/rosa-arcoiris.jpeg';
         document.getElementsByTagName('head')[0].appendChild(link_icon_web);
         
         
@@ -370,10 +370,10 @@ const Principal = ()=>{
                         
                         <div class="contenedor-fondos">
                             <div class="deco-0">
-                                <img src="`+generateDot()+`imagenes/texturas/mader-de-fresno-1.jpg">
+                                <img src="imagenes/texturas/mader-de-fresno-1.jpg">
                             </div>
                             <div class="deco-1">
-                                <img src="`+generateDot()+`imagenes/texturas/textura-lampara-1.jpg">
+                                <img src="imagenes/texturas/textura-lampara-1.jpg">
                             </div>
                             <div class="deco-2"></div>
                             <div class="deco-3"></div>
@@ -467,27 +467,27 @@ const Service = ()=>{
     /*SERVICIOS BELLEZA*/    
         
         
-    {enlace:'#', imagen: generateDot()+'imagenes/fondos/estilista-de-cabello-cortando-pelo.jpg', nombre: 'Cortes de Cabello', categoria: 'belleza', id: cero++},
+    {enlace:'#', imagen: 'imagenes/fondos/estilista-de-cabello-cortando-pelo.jpg', nombre: 'Cortes de Cabello', categoria: 'belleza', id: cero++},
     
-    {enlace:'#', imagen: generateDot()+'imagenes/fondos/chica-con-sombrero.jpg', nombre: 'Maquillaje', categoria: 'belleza', id: cero++},
+    {enlace:'#', imagen: 'imagenes/fondos/chica-con-sombrero.jpg', nombre: 'Maquillaje', categoria: 'belleza', id: cero++},
         
-    {enlace:'#', imagen: generateDot()+'imagenes/fondos/chica-de-pelo-azul.jpg', nombre: 'Tintes', categoria: 'belleza', id: cero++},   
+    {enlace:'#', imagen: 'imagenes/fondos/chica-de-pelo-azul.jpg', nombre: 'Tintes', categoria: 'belleza', id: cero++},   
         
-    {enlace:'#', imagen: generateDot()+'imagenes/fondos/unas-de-color-rosado.jpg', nombre: 'Uñas', categoria: 'belleza', id: cero++},  
+    {enlace:'#', imagen: 'imagenes/fondos/unas-de-color-rosado.jpg', nombre: 'Uñas', categoria: 'belleza', id: cero++},  
         
-    {enlace:'#', imagen: generateDot()+'imagenes/fondos/chica-peinado-posando-en-escaleras.jpg', nombre: 'Peinados', categoria: 'belleza', id: cero++}, 
+    {enlace:'#', imagen: 'imagenes/fondos/chica-peinado-posando-en-escaleras.jpg', nombre: 'Peinados', categoria: 'belleza', id: cero++}, 
         
-    {enlace:'#', imagen: generateDot()+'imagenes/fondos/chica-de-ojos-azules-con-leces-en-el-cabello.jpg', nombre: 'Mechas y más', categoria: 'belleza', id: cero++},  
+    {enlace:'#', imagen: 'imagenes/fondos/chica-de-ojos-azules-con-leces-en-el-cabello.jpg', nombre: 'Mechas y más', categoria: 'belleza', id: cero++},  
         
-    {enlace:'#', imagen: generateDot()+'imagenes/fondos/muro-de-ladrillos.jpg', nombre: 'Alizados', categoria: 'belleza', id: cero++},      
+    {enlace:'#', imagen: 'imagenes/fondos/muro-de-ladrillos.jpg', nombre: 'Alizados', categoria: 'belleza', id: cero++},      
         
         
     /*SERVICIOS SPA*/
         
         
-    {enlace:'#', imagen: generateDot()+'imagenes/fondos/chica-relajada-por-masage.jpg', nombre: 'Masajes relajantes', categoria: 'spa', id: cero++},  
+    {enlace:'#', imagen: 'imagenes/fondos/chica-relajada-por-masage.jpg', nombre: 'Masajes relajantes', categoria: 'spa', id: cero++},  
     
-    {enlace:'#', imagen: generateDot()+'imagenes/fondos/masage-exfoliante.jpg', nombre: 'Masajes exfoliantes', categoria: 'spa', id: cero++},  
+    {enlace:'#', imagen: 'imagenes/fondos/masage-exfoliante.jpg', nombre: 'Masajes exfoliantes', categoria: 'spa', id: cero++},  
         
         
     /*OFERTAS*/ 
